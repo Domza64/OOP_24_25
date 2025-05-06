@@ -35,4 +35,8 @@ public class Player implements Serializable {
                 ", gameStats=" + gameStats +
                 '}';
     }
+
+    public String toStringFileSave() {
+        return person.toStringFileSave() + ";" + playerName;
+    }
 }

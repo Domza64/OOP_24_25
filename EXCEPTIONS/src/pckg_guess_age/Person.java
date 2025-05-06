@@ -19,4 +19,8 @@ public class Person implements Serializable {
                 ", id=" + id +
                 '}';
     }
+
+    public String toStringFileSave() {
+        return name + ";" + id;
+    }
 }
